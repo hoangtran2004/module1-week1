@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MRS</title>
+</head>
+<body>
+<h1>Market Research Suvey</h1>
+<br>
+<p>Please take a few moments to complete this satisfaction survey.</p>
+<hr>
+<h3>What is your age range?</h3>
+<select>
+  <option>18-24</option>
+  <option>25-34</option>
+  <option>35-50</option>
+  <option>50+</option>
+</select>
+<h3>Gender Identity</h3>
+<input type="radio" name="gioi tinh">Male<br>
+<input type="radio" name="gioi tinh">Female<br>
+<input type="radio" name="gioi tinh">Nonbinary<br>
+<input type="radio" name="gioi tinh">Other<br>
+<input type="text">
+<h3>Which of the following products have your purchased in the last 2 months.Please check all that apply.</h3>
+<input type="checkbox">Product1<br>
+<input type="checkbox">Product2<br>
+<input type="checkbox">Product3
+<h3>How often  would you use our new product?</h3>
+<input type="radio" name=",">Daily <br>
+<input type="radio" name=",">Weekly<br>
+<input type="radio" name=",">Monthly
+<br>
+<h3>What would you pay for the new product?</h3>
+$<input type="number">.<input type="number">
+<pre>     Dollars                         Cents</pre>
+<h3>What features would you like to see in the new product.</h3>
+<textarea rows="9" cols="20"></textarea><br>
+<p>Please rate your level of agreement with the following statements</p>
+<br>
+<table border="1px">
+    <tr>
+        <th></th>
+        <th>Strongly Disagree</th>
+        <th>Disagree</th>
+        <th>Agree</th>
+    </tr>
+    <tr>
+        <th>Our products are priced fairly.</th>
+        <th><input type="radio" name=".">1</th>
+        <th><input type="radio" name=".">2</th>
+        <th><input type="radio" name=".">3</th>
+
+    </tr>
+    <tr>
+        <th>Our products are high quality.</th>
+        <th><input type="radio" name=".">1</th>
+        <th><input type="radio" name=".">2</th>
+        <th><input type="radio" name=".">3</th>
+
+    </tr>
+    <tr>
+        <th>You would recommend our product to a friend or coworker</th>
+        <th><input type="radio" name=".">1</th>
+        <th><input type="radio" name=".">2</th>
+        <th><input type="radio" name=".">3</th>
+
+    </tr>
+</table>
+<input type="submit">
+<style>
+    *{font-family: arial, sans-serif}
+    table{border-collapse: collapse}
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;}
+    tr:nth-child(odd) {
+        background-color: #dddddd;
+    }
+</style>
+</body>
+    </html>
