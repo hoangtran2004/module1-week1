@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="number" id="nhap vao">
+
+<select id="gia tri 1">
+  <option value="a">Viet Nam</option>
+  <option value="b">USA</option>
+</select>
+
+<select id="gia tri 2">
+  <option value="a">Viet Nam</option>
+  <option value="b">USD</option>
+</select>
+<button onclick="doitien()">Convert</button>
+</body>
+<script>
+  function doitien() {
+      let giatrivao = document.getElementById('nhap vao').value;
+      let giatri1 = document.getElementById('gia tri 1').value;
+      let giatri2 = document.getElementById('gia tri 2').value;
+      if (giatri1 == giatri2) {
+          alert(giatrivao)
+      }
+      if (giatri1 == "a" && giatri2 == "b") {
+          alert(giatrivao / 24000);
+      }
+      if (giatri1 == "b" && giatri2 == "a") {
+          alert(giatrivao *24);
+      }
+  }
+</script>
+</html>
